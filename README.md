@@ -9,9 +9,9 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
 > "...the most successful explanatory data visualizations, make themselves a pivotal point in a story or a narrative that's being told."  - Cole Nussbaumer, [Website](www.storytellingwithdata.com/about/) & [Linkedin](https://www.linkedin.com/in/colenussbaumer)
 
 - Data visualization use cases examples:
-  - [twitter.com/nytgraphics](twitter.com/nytgraphics)
-  - [smallmeans.com/nwe-york-times-infographics](smallmeans.com/nwe-york-times-infographics)
-  - [flowingdata.com](flowingdata.com)
+  - [http://twitter.com/nytgraphics](http://twitter.com/nytgraphics)
+  - [http://smallmeans.com/nwe-york-times-infographics](http://smallmeans.com/nwe-york-times-infographics)
+  - [http://flowingdata.com](http://flowingdata.com)
   - [infosthetics.com](infosthetics.com)
   - [http://www.thefunctionalart.com/](http://www.thefunctionalart.com/)
   - [http://visualisingdata.com/](http://visualisingdata.com/)
@@ -63,5 +63,9 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
 
 ### Mini-Project 1: Raw Visualization
 - Foreginers in Seoul, South Korea
-  - Project 001: Visa Type per district (체류자격/구별) X Nationality by district (국적별/구별)
-  
+  - Project 001: Scatter plot of the Foreigners in Seoul with a student visa seeking for a job (aggregated by district). 
+  - X-axis: Foreign citizens (non-koreans) seeking job in Seoul;
+  - Y-axis: Foreign citizens (non-koreans) with a student-visa;
+  - Circle radius: Foreign citizens (non-koreans) in Seoul, South Korea;
+![foreign students seeking for a job in seoul 1](https://cloud.githubusercontent.com/assets/16644017/20456083/31a1fc48-aeb0-11e6-9fd4-25e969c655d1.png)
+
