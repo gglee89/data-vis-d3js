@@ -67,6 +67,6 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
   - X-axis: Foreign citizens (non-koreans) seeking job in Seoul, South Korea;
   - Y-axis: Foreign citizens (non-koreans) with a student-visa;
   - Circle radius: Foreign citizens (non-koreans) in Seoul, South Korea;
-  - Basic conclusion: There's a positive correlation between foreign citizens (non-korean) studying in korea ( are seeking jobs.
+  - Basic conclusion: There's a positive correlation between D-2 student and D-10 job seeking visa.
 ![foreign students seeking for a job in seoul 1](https://cloud.githubusercontent.com/assets/16644017/20456083/31a1fc48-aeb0-11e6-9fd4-25e969c655d1.png)
 
