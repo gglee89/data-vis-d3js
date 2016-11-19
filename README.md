@@ -13,11 +13,16 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
   - [smallmeans.com/nwe-york-times-infographics](smallmeans.com/nwe-york-times-infographics)
   - [flowingdata.com](flowingdata.com)
   - [infosthetics.com](infosthetics.com)
+  - [http://www.thefunctionalart.com/](http://www.thefunctionalart.com/)
+  - [http://visualisingdata.com/](http://visualisingdata.com/)
+  - [http://helpmeviz.com/](http://helpmeviz.com/)
+  - [http://www.tableausoftware.com/public/](http://www.tableausoftware.com/public/)
+  - [http://raw.densitydesign.org/](http://raw.densitydesign.org/)
 
 - Interactive data visualization for the web (by Scott Murray):
   - [Book at Amazon.com](https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1449339735/ref=sr_1_1?ie=UTF8&qid=1479540876&sr=8-1&keywords=interactive+data+visualization+for+the+web+by+Scott+Murray)
   
-- Alberto Cairo's three steps to become a visualization design (by Andy Kriebel):
+- Alberto Cairo's three steps to become a visualization design (by *Andy Kriebel, Data Viz guru @Facebook*):
   - [http://www.vizwiz.com/2013/01/alberto-cairo-three-steps-to-become.html](http://www.vizwiz.com/2013/01/alberto-cairo-three-steps-to-become.html)
   
 - Hand Rosling's 200 Countries, 200 Years, 4 minutes (BBC Four):
@@ -54,3 +59,9 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
   - circles [population]
     - (Square root scale) d3.scale.sqrt().domain([52070, 1380000000]).range([40, 10]);
     - In functional notation: f(52070) = 40; f(1380000000) = 10;
+
+
+### Mini-Project 1: Raw Visualization
+- Foreginers in Seoul, South Korea
+  - Project 001: Visa Type per district (체류자격/구별) X Nationality by district (국적별/구별)
+  
