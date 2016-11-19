@@ -3,7 +3,6 @@ This is a Data Visualization project using D3.
 Below is my notes compiled from the [Udacity's Data Visualization and D3.js](https://classroom.udacity.com/courses/ud507) course
 
 # Good References
-===
 
 - What makes a good data visualization? *(by Cole Nussbaumer, People Analytics Manager @Google)*
 > "It depends on the purpose of the DataViz. I tend to draw a disctiction between the **Exploratory** and the **Explanatory** where exploratory you're really trying to get a sense of *What the data is, what it can tell you?* is a process of turning over maybe 100 different rocks to try to find those, one or two interesting nuggets. Then once you found the interesting nuggets you're in the explanatory space of wanting to communicate those things to somebody else. When it comes to effective data visualization on the exploratory size, it's about allowing your users to be able to connect things in interesting ways and look at data frmo different angles in an unbiased and unleading way."
@@ -42,4 +41,16 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
     - enable users to potentially discover insights for themselves;
 
 
-
+# D3.js (version 3.0)
+- Selectors chainable nature:
+  - E.g. d3.select('.navbar').select('.navbar-header').styles('background','red');
+- Building scales:
+  - x-axis [Population life expentancy]
+    - (Linear scale) d3.scale.linear().domain([15, 90]).range([250, 0]) *px range inversed to match SVG's plot coordinates*
+    - In functional notation: f(15) = 250; f(250) = 0;
+  - y-axis [GDP per capita]
+    - (Log scale) d3.scale.log().domain([(250, 100000]).range([0, 600]);
+    - In functional notation: f(250) = 0; f(100000) = 600;
+  - circles [population]
+    - (Square root scale) d3.scale.sqrt().domain([52070, 1380000000]).range([40, 10]);
+    - In functional notation: f(52070) = 40; f(1380000000) = 10;
