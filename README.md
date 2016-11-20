@@ -70,3 +70,18 @@ Below is my notes compiled from the [Udacity's Data Visualization and D3.js](htt
   - Basic conclusion: There's a positive correlation between D-2 student and D-10 job seeking visa.
 ![foreign students seeking for a job in seoul 1](https://cloud.githubusercontent.com/assets/16644017/20456083/31a1fc48-aeb0-11e6-9fd4-25e969c655d1.png)
 
+
+# Design Principles
+- Good References:
+  - [perceptualedge.com, article by Stephen Few](http://www.perceptualedge.com/articles/ie/the_right_graph.pdf)
+  - Cole shares her thoughts on the [Chart Chooser](http://www.storytellingwithdata.com/blog/2013/04/chart-chooser)
+  - Juice Labs provides an [interactive form of the Chart Chooser.](http://labs.juiceanalytics.com/chartchooser/index.html)
+  - Larger image of [Chart Suggestions - A Thought Starter](https://apandre.files.wordpress.com/2011/02/chartchooserincolor.jpg) (modified with permission by Doug Hall)
+  
+ - Jumped the rest of this topic to watch it later. Too much content.
+ 
+# Dimple.js [http://dimplejs.org/](http://dimplejs.org/)
+- Good reasons to use it:
+  - Built at top of D3.js;
+  - Gentle learning curve;
+  - Exposes D3 objects (If more complexity is needed);
